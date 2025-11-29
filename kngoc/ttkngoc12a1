@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-html
 <html>
 <head>
 <meta charset="UTF-8">
@@ -24,4 +22,6 @@ html
 <img src="https://file3.qdnd.vn/data/images/0/2025/08/23/upload_2312/bong%20chuyen.jpg?dpi=150&quality=100&w=870" width="50%">
 </td></tr>
 </table>
+<a href="kieungoc.html" class="back-link">Quay lại</a>
 </body>
+</html>
