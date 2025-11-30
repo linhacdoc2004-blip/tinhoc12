@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
     <meta charset="utf-8">
+    <title>Dự án thực hành nhóm - Môn tin học</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background: skyblue;
+        }
+        td[bgcolor="lightyellow"] {
+            font-weight: bold;
+        }
+        h1, h2 {
+            margin-top: 30px;
+        }
+        video, audio {
+            width: 80%;
+            margin-top: 10px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 18px;
+            color: blue;
+        }
+    </style>
 </head>
 
 <body>
-    <h1> Dự án thực hành nhóm - Môn tin học</h1>
-    <table border="1">
-        <caption style="color:revert;"> <b></b></caption>
 
-        <tr style="border: 1px solid" bgcolor="skyblue">
+    <h1>Dự án thực hành nhóm - Môn Tin Học</h1>
+
+    <table>
+        <caption><b>Lịch trình dự án</b></caption>
+
+        <tr>
             <th>Tối hôm trước</th>
             <th>7h30-8h</th>
             <th>8h-9h</th>
@@ -18,6 +57,7 @@
             <th>1h15-1h45</th>
             <th>2 ngày sau</th>
         </tr>
+
         <tr>
             <td bgcolor="lightyellow">Trao đổi</td>
             <td>Tập hợp</td>
@@ -38,22 +78,26 @@
             <td>Làm ra kết quả</td>
         </tr>
     </table>
-<h1>Cá nhân : Trần Ngọc Bảo Trâm</h1>
-<h2>Thực hiện : Edit video</h2>
-<p>Thành phẩm :</p><br>
-<video controls>
-    <source src="picnic.mp4">
-</video><br>
-<p>Nhạc nền sử dụng : </p><br>
-<audio controls>
-    <source src="nhacnen.mp3">
-</audio><br>
-<p>Địa điểm :</p><br>
-<iframe src="https://mia.vn/cam-nang-du-lich/chiem-nguong-bien-ho-pleiku-bien-ho-tnung-tuyet-dep-8139" width="100%" height="500"></iframe><br>
+
+    <h1>Cá nhân: Trần Ngọc Bảo Trâm</h1>
+    <h2>Thực hiện: Edit video</h2>
+
+    <p>Thành phẩm:</p>
+    <video controls>
+        <source src="picnic.mp4" type="video/mp4">
+    </video>
+
+    <p>Nhạc nền sử dụng:</p>
+    <audio controls>
+        <source src="nhacnen.mp3" type="audio/mpeg">
+    </audio>
+
+    <p>Địa điểm:</p>
+    <iframe src="https://mia.vn/cam-nang-du-lich/chiem-nguong-bien-ho-pleiku-bien-ho-tnung-tuyet-dep-8139" 
+            width="100%" height="500">
+    </iframe>
+
     <a href="tram.html" class="back-link">Quay về</a>
+
 </body>
-
 </html>
-
-
-
